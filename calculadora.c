@@ -39,8 +39,18 @@ void subtrai()
 }
 
 void divide()
-{ 
-    //todo
+{
+    int numero1, numero2, resultado;
+
+    printf("Indique o primeiro numero: ");
+    scanf("%d", &numero1);
+    printf("Indique o segundo numero: ");
+    scanf("%d", &numero2);
+
+
+    resultado = numero1/numero2;
+    printf("O Resultado e= %d \n", resultado);
+
     system ("pause");
     system("cls");
     menu();
