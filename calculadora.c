@@ -2,16 +2,25 @@
 #include <stdlib.h>
 
 void soma()
-{ 
-    //todo
-    system ("pause"); 
-    system("cls"); 
-    menu(); 
+{
+    int numero1, numero2, resultado;
+
+    printf("Indique o primeiro numero: ");
+    scanf("%d", &numero1);
+    printf("Indique o segundo numero: ");
+    scanf("%d", &numero2);
+
+    resultado = numero1+numero2;
+    printf("O e Resultado = %d \n", resultado);
+
+    system ("pause");
+    system("cls");
+    menu();
 }
 
 void subtrai()
 {
-    int num1;
+  int num1;
 	int num2;
 	int res;
     
@@ -23,15 +32,25 @@ void subtrai()
     res = num1-num2;
     
     printf("Resultado = %d \n", res);
-    
+  
     system ("pause");
-    system("cls"); 
+    system("cls");
     menu();
 }
 
 void divide()
-{ 
-    //todo
+{
+    int numero1, numero2, resultado;
+
+    printf("Indique o primeiro numero: ");
+    scanf("%d", &numero1);
+    printf("Indique o segundo numero: ");
+    scanf("%d", &numero2);
+
+
+    resultado = numero1/numero2;
+    printf("O Resultado e= %d \n", resultado);
+
     system ("pause");
     system("cls");
     menu();
@@ -39,7 +58,18 @@ void divide()
 
 void multiplica()
 { 
-    //todo
+    int num1; 
+	int num2;
+	int res;
+    
+    printf("Indique o Primeiro numero: ");
+    scanf("%d", &num1);
+    printf("Indique o Segundo numero: ");
+    scanf("%d", &num2);
+    
+    res = num1*num2;
+    printf("Resultado = %d \n", res);
+    
     system ("pause");
     system("cls");
     menu();
