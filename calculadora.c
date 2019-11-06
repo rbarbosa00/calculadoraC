@@ -2,11 +2,20 @@
 #include <stdlib.h>
 
 void soma()
-{ 
-    //todo
-    system ("pause"); 
-    system("cls"); 
-    menu(); 
+{
+    int numero1, numero2, resultado;
+
+    printf("Indique o primeiro numero: ");
+    scanf("%d", &numero1);
+    printf("Indique o segundo numero: ");
+    scanf("%d", &numero2);
+
+    resultado = numero1+numero2;
+    printf("O e Resultado = %d \n", resultado);
+
+    system ("pause");
+    system("cls");
+    menu();
 }
 
 void subtrai()
