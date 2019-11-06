@@ -11,7 +11,19 @@ void soma()
 
 void subtrai()
 {
-    //todo
+    int num1;
+	int num2;
+	int res;
+    
+    printf("Indique o primeiro numero: ");
+    scanf("%d", &num1);
+    printf("Indique o segundo numero: ");
+    scanf("%d", &num2);
+    
+    res = num1-num2;
+    
+    printf("Resultado = %d \n", res);
+    
     system ("pause");
     system("cls"); 
     menu();
